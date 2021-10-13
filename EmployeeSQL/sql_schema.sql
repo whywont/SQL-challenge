@@ -31,7 +31,7 @@ CREATE TABLE departments (
 
 CREATE TABLE dept_emp (
 	emp_no INT REFERENCES employees(emp_no),
-    dept_no VARCHAR(5) REFERENCES departments(dept_no)
+    	dept_no VARCHAR(5) REFERENCES departments(dept_no)
 );
 
 CREATE TABLE salaries (
